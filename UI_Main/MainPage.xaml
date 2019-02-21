@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="UI_Main.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UI_Main"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="143" Margin="71,27,0,0" VerticalAlignment="Top" Width="569"  Source="Assets/qa.png" />
+        <Button Content="Viết/Tạo đáp án đề thi" HorizontalAlignment="Left" Margin="174,223,0,0" VerticalAlignment="Top" Height="68" Width="309"/>
+        <Button Content="Kiểm tra lỗi" HorizontalAlignment="Left" Margin="174,360,0,0" VerticalAlignment="Top" Height="68" Width="309"/>
+        <Button Content="Tạo đề thi" HorizontalAlignment="Left" Margin="174,493,0,0" VerticalAlignment="Top" Height="68" Width="309"/>
+        <Button Content="Browse Input" HorizontalAlignment="Left" Margin="699,183,0,0" VerticalAlignment="Top" Height="68" Width="309"/>
+        <Button Content="Browse Output" HorizontalAlignment="Left" Margin="699,320,0,0" VerticalAlignment="Top" Height="68" Width="309"/>
+        <TextBox HorizontalAlignment="Left" Margin="640,259,0,0" Text="TextBox" VerticalAlignment="Top" Width="448"/>
+        <TextBox HorizontalAlignment="Left" Margin="640,396,0,0" Text="TextBox" VerticalAlignment="Top" Width="448"/>
+
+    </Grid>
+</Page>
