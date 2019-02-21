@@ -13,7 +13,7 @@ namespace UI_Main
         
         public Question()
         {
-
+            
         }
 
         public Question(String title, List<String> choice)
